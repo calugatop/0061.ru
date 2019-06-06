@@ -9,7 +9,7 @@
 $imSettings['general'] = array(
 	'url' => 'https://0061.ru/',
 	'homepage_url' => 'https://0061.ru/index.html',
-	'icon' => '',
+	'icon' => 'https://0061.ru/favImage.png',
 	'version' => '13.1.8.23',
 	'sitename' => '0061.Ру',
 	'public_folder' => '',
