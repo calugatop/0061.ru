@@ -23,14 +23,14 @@
 		<link rel="stylesheet" type="text/css" href="style/style.css?13-1-8-23" media="screen,print" />
 		<link rel="stylesheet" type="text/css" href="style/template.css?13-1-8-23" media="screen" />
 		<link rel="stylesheet" type="text/css" href="style/menu.css?13-1-8-23" media="screen" />
-		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?13-1-8-23-637525015174440000" media="screen,print" />
+		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?13-1-8-23-637524965763060000" media="screen,print" />
 		<script type="text/javascript" src="res/jquery.js?13-1-8-23"></script>
 		<script type="text/javascript" src="res/x5engine.js?13-1-8-23" data-files-version="13-1-8-23"></script>
 		<script type="text/javascript">
 			window.onload = function(){ checkBrowserCompatibility('Ваш браузер не поддерживает функции, требуемые для визуализации этого Сайта.','Возможно, Ваш браузер не поддерживает функции, требуемые для визуализации этого Сайта.','[1]Обновите Ваш браузер[/1] или [2]продолжите процедуру [/2].','http://outdatedbrowser.com/'); };
 			x5engine.utils.currentPagePath = 'imsearch.php';
 		</script>
-		<link rel="icon" href="favicon.png?13-1-8-23-637525015174430000" type="image/png" />
+		<link rel="icon" href="favicon.png?13-1-8-23-637524965763040000" type="image/png" />
 	</head>
 	<body>
 		<div id="imHeaderBg"></div>
@@ -38,7 +38,7 @@
 		<div id="imPage">
 			<div id="imHeader">
 				
-				<div id="imHeaderObjects"><div id="imHeader_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imHeader_imCell_1" class="" > <div id="imHeader_imCellStyleGraphics_1"></div><div id="imHeader_imCellStyle_1" ><div id="imHeader_imObjectTitle_01"><span id ="imHeader_imObjectTitle_01_text">0061.RU </span > </div></div></div></div></div>
+				<div id="imHeaderObjects"><div id="imHeader_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imHeader_imCell_1" class="" > <div id="imHeader_imCellStyleGraphics_1"></div><div id="imHeader_imCellStyle_1" ><div id="imHeader_imObjectTitle_01"><span id ="imHeader_imObjectTitle_01_text"><a href="index.html" onclick="return x5engine.utils.location('index.html', null, false)">0061.RU</a> </span > </div></div></div></div></div>
 			</div>
 			<a class="imHidden" href="#imGoToCont" title="Заголовок главного меню">Перейти к контенту</a>
 			<a id="imGoToMenu"></a><p class="imHidden">Главное меню:</p>
@@ -88,7 +88,11 @@
 				</div>
 			</div>
 			<div id="imFooter">
-				<div id="imFooterObjects"></div>
+				<div id="imFooterObjects"><div id="imFooter_imHTMLObject_01_wrapper" class="template-object-wrapper"><div id="imFooter_imCell_1" class="" > <div id="imFooter_imCellStyleGraphics_1"></div><div id="imFooter_imCellStyle_1" ><div id="imFooter_imHTMLObject_01" class="imHTMLObject" style=" overflow: hidden; text-align: center;"><!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=65392579&amp;from=informer"
+target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/65392579/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="65392579" data-lang="ru" /></a>
+<!-- /Yandex.Metrika informer --></div></div></div></div></div>
 			</div>
 		</div>
 		<span class="imHidden"><a href="#imGoToCont" title="Прочесть эту страницу заново">Назад к содержимому</a> | <a href="#imGoToMenu" title="Прочесть этот сайт заново">Назад к главному меню</a></span>

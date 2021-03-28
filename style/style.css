@@ -12,41 +12,43 @@
 
 
 /* Page default */
-#imPage { font: normal normal normal 11pt 'Tahoma'; color: #000000; background-color: transparent; text-align: left; text-decoration: none; }
+#imPage { font: normal normal normal 16pt 'Verdana'; color: #000000; background-color: transparent; text-align: left; text-decoration: none; }
 .text-tab-content { text-align: left; }
-body.wysiwyg { padding: 3px; font: normal normal normal 11pt 'Tahoma';  color: black; line-height: 1; }
-body.wysiwyg p { margin: 0; line-height: 21px; }
-.dynamic-object-text p { line-height: 21px; }
+body.wysiwyg { padding: 3px; font: normal normal normal 16pt 'Verdana';  color: black; line-height: 1; }
+body.wysiwyg p { margin: 0; line-height: 28px; }
+.dynamic-object-text p { line-height: 28px; }
 
 
 /* Page Title */
-#imPgTitle, #imPgTitle a, .imPgTitle, .imPgTitle a { padding-top: 2px; padding-bottom: 2px; margin: 5px 0; font: normal normal bold 14pt 'Tahoma'; color: #253A58; background-color: transparent; text-align: left; text-decoration: none; }
+#imPgTitle, #imPgTitle a, .imPgTitle, .imPgTitle a { padding-top: 2px; padding-bottom: 2px; margin: 5px 0; font: normal normal bold 16pt 'Verdana'; color: #000000; background-color: transparent; text-align: left; text-decoration: none; }
 #imPgTitle, .imPgTitle { border-width: 1px; border-style: solid; border-color: transparent transparent transparent transparent; }
 #imPgTitle.imTitleMargin, .imPgTitle.imTitleMargin { margin-left: 6px; margin-right: 6px; }
 
 
 /* Breadcrumb */
-.imBreadcrumb, #imBreadcrumb { display: none; }
-.imBreadcrumb, .imBreadcrumb a, #imBreadcrumb, #imBreadcrumb a { padding-top: 2px; padding-bottom: 2px; font: normal normal normal 7pt 'Tahoma'; color: #A9A9A9; background-color: transparent; text-align: left; text-decoration: none;  border-width: 1px; border-style: solid; border-color: transparent transparent transparent transparent}
-.imBreadcrumb a, .imBreadcrumb a:link, .imBreadcrumb a:hover, .imBreadcrumb a:visited, .imBreadcrumb a:active { color: #A9A9A9; }
+.imBreadcrumb, .imBreadcrumb a, #imBreadcrumb, #imBreadcrumb a { padding-top: 2px; padding-bottom: 2px; font: normal normal normal 8pt 'Verdana'; color: #000000; background-color: transparent; text-align: left; text-decoration: none;  border-width: 1px; border-style: solid; border-color: transparent transparent transparent transparent}
+.imBreadcrumb a, .imBreadcrumb a:link, .imBreadcrumb a:hover, .imBreadcrumb a:visited, .imBreadcrumb a:active { color: #000000; }
 
 
 /* Links */
-.imCssLink:link, .imCssLink { background-color: transparent; color: #253A58; text-decoration: none; }
-.imCssLink:visited { background-color: transparent; color: #567EB6; text-decoration: none; }
-.imCssLink:hover, .imCssLink:active, .imCssLink:hover, .imCssLink:active { background-color: transparent; color: #253A58; text-decoration: underline; }
-.imAbbr:link { background-color: transparent; color: #253A58; text-decoration: none; }
-.imAbbr:visited { background-color: transparent; color: #567EB6; text-decoration: none; }
-.imAbbr:hover, .imAbbr:active { background-color: transparent; color: #253A58; border-bottom: 1px dotted #253A58; text-decoration: none; }
+.imCssLink:link, .imCssLink { background-color: transparent; color: #000000; text-decoration: none; }
+.imCssLink:visited { background-color: transparent; color: #000000; text-decoration: none; }
+.imCssLink:hover, .imCssLink:active, .imCssLink:hover, .imCssLink:active { background-color: transparent; color: #000000; text-decoration: underline; }
+.imAbbr:link { background-color: transparent; color: #000000; text-decoration: none; }
+.imAbbr:visited { background-color: transparent; color: #000000; text-decoration: none; }
+.imAbbr:hover, .imAbbr:active { background-color: transparent; color: #000000; border-bottom: 1px dotted #000000; text-decoration: none; }
 
 
 /* Bottom Menu */
-#imBtMnContainer, #imBtMn { display: none; }
+#imBtMn { margin-left: 6px; margin-right: 6px; padding: 2px 0; position: relative;  border-width: 1px; border-style: solid; border-color: #A9A9A9 transparent #A9A9A9 transparent}
+#imBtMn, #imBtMn a, #imBtMn a:visited, #imBtMn a:hover, #imBtMn a:active {font: normal normal normal 8pt 'Verdana'; color: #FFFFFF; background-color: #000000; text-align: center; text-decoration: none; }
+#imBtMn a:hover { text-decoration: underline; }
+#imBtMn a { border: none; }
 #imPage input[type=text], #imPage input[type=password], textarea, #imCartContainer .userForm select { font: inherit; border: 1px solid #A9A9A9; background-color: #FFFFFF; color: #000000; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; padding-left: 1px; padding-right: 1px; }
 textarea { resize: none; }
-#imPage input[type=button], #imPage input[type=submit], #imPage input[type=reset] {padding: 4px 8px; cursor: pointer; font: inherit; border: 1px solid #253A58; background-color: #567EB6; color: #FFFFFF; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-sizing: content-box; }
+#imPage input[type=button], #imPage input[type=submit], #imPage input[type=reset] {padding: 4px 8px; cursor: pointer; font: inherit; border: 1px solid #253A58; background-color: #000000; color: #FFFFFF; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-sizing: content-box; }
 .search_form input { border-radius: 0; }
-.imNoScript { position: absolute; top: 5px; left: 5%; width: 90%; font: normal normal normal 11pt 'Tahoma'; text-align: left; text-decoration: none; }
+.imNoScript { position: absolute; top: 5px; left: 5%; width: 90%; font: normal normal normal 16pt 'Verdana'; text-align: left; text-decoration: none; }
 
 /* Tip */
 .imTip { z-index: 100201; background-color: #FFFFFF; border-top: 1px solid #253A58; border-right: 1px solid #253A58; border-bottom: 1px solid #253A58; border-left: 1px solid #253A58; font: normal normal normal 9pt 'Tahoma'; color: #253A58; background-color: #FFFFFF; text-align: center; text-decoration: none;  margin: 0 auto; padding: 10px; position: absolute; border-radius: 5px 5px 5px 5px; box-shadow: 1px 1px 1px 0px #808080;}
