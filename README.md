@@ -1,8 +1,7 @@
-# 0061.ru
+# 0061.RU | Создание сайтов
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Создание сайтов</title>
     </head>
     <body>
         <h1>Создание сайтов</h1>
